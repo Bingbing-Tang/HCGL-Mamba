@@ -79,6 +79,3 @@ artifacts/PEMS04/
 
 Large raw DTW matrices, prediction arrays, and target arrays are intentionally not stored.
 
-## Adapting another dataset
-
-For another traffic dataset, convert it to the same `(T, N, F)` NPZ format, prepare the aligned `N × N` adjacency CSV, and update the data/model settings in `config.py` (e.g., paths, node count, sampling interval, and horizon settings).
