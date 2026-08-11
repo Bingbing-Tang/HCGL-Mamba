@@ -23,8 +23,6 @@ HCGL-Mamba/
 - **Chronological evaluation:** data are split in temporal order with a default ratio of `6:2:2`.
 - **Fair model selection:** early stopping uses validation MAE; the test set is evaluated only after the best validation checkpoint is loaded.
 - **Compact test output:** only MAE/RMSE metrics are saved. Prediction and target arrays are not written to disk.
-- **No MAPE:** the public evaluation reports MAE and RMSE only.
-- **Reproducibility:** random seeds are fixed and deterministic cuDNN behavior is enabled.
 
 ## Environment
 
