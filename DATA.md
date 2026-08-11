@@ -1,6 +1,11 @@
 # Data Preparation
 
-The public code uses a unified input format for traffic datasets. Dataset files are **not included** in the repository. Download the benchmark data from their official/public sources and place them locally under `data/`.
+The public code uses a unified input format for traffic datasets. Dataset files are **not included** in this repository. The PEMS03, PEMS04, PEMS07, and PEMS08 benchmark datasets used in our experiments can be downloaded from the following public repository:
+
+**Dataset source:**  
+https://github.com/guoshnBJTU/ASTGNN/tree/main/data
+
+After downloading, please place the corresponding dataset files locally under the `data/` directory following the structure described below.
 
 ## Expected directory structure
 
