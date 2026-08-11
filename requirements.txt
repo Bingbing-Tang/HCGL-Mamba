@@ -1,0 +1,15 @@
+# Core scientific stack
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+networkx==3.4.2
+scikit-learn==1.7.2
+scikit-learn-extra==0.3.0
+tslearn==0.8.1
+
+# Deep learning / Mamba
+# The original environment snapshot used torch 2.1.2+cu118 with
+# causal-conv1d 1.2.0.post1 and mamba-ssm 1.2.0.post1.
+# Install a PyTorch build matching your CUDA runtime before these packages.
+causal-conv1d==1.2.0.post1
+mamba-ssm==1.2.0.post1
